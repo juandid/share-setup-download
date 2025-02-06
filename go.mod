@@ -1,4 +1,4 @@
-module share-setup-download
+module github.com/juandid/share-setup-download
 
 go 1.22
 
