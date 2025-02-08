@@ -69,7 +69,7 @@ func main() {
 	// Separate Regex-Ausdrücke für die Mindestanforderungen
 	hasLower := regexp.MustCompile(`[a-z]`)
 	hasUpper := regexp.MustCompile(`[A-Z]`)
-	hasSpecial := regexp.MustCompile(`[!.\&*\-]`)
+	hasSpecial := regexp.MustCompile(`[!.&*\-]`)
 	reader := bufio.NewReader(os.Stdin)
 
 	// 1. Benutzernamen einlesen und validieren
